@@ -1,12 +1,16 @@
-# Voting System
+# Voting System🌟
 
 A simple console-based voting system implemented in Java.
+
+---
 
 ## Project Overview
 
 This project was created to demonstrate a basic voting system implementation in Java. It showcases object-oriented programming concepts, input validation, and a simple user interface. The goal was to create a functional voting system that could handle voter registration, secure login, vote casting, and result display.
 
-## Features
+---
+
+## ⚡Features
 
 - **Voter Registration**: Allows users to register as voters by entering age, name, voter ID, and password .
 - **Secure Login System**: Implements a login mechanism using voter ID and password .
@@ -21,7 +25,9 @@ This project was created to demonstrate a basic voting system implementation in 
 - **Security**: Implements password protection for voter accounts .
 - **Scalability**: Uses arrays and Vectors to handle multiple voters and candidates .
 
-## What I Learned
+---
+
+## 💡 What I Learned
 
 1. The importance of clear project description: A concise yet informative description helps users quickly understand the project's purpose and value.
 
@@ -43,7 +49,9 @@ This project was created to demonstrate a basic voting system implementation in 
 
 10. Security considerations: Implementing password protection adds a layer of security to the system.
 
-## How to Run
+---
+
+## 🚀 How to Run
 
 1. Clone this repository : https://github.com/Kaveri-0911/VotingManagementSystem.git
 
@@ -53,6 +61,8 @@ This project was created to demonstrate a basic voting system implementation in 
 
 4. Run the main class : java VotingSystem
 
+---
+
 ## Usage
 
 1. Choose an option from the main menu:
@@ -61,6 +71,8 @@ This project was created to demonstrate a basic voting system implementation in 
    - View election results
 
 2. Follow the prompts to complete each action.
+
+---
 
 ## Contributing
 
