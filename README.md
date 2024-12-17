@@ -57,9 +57,9 @@ This project was created to demonstrate a basic voting system implementation in 
 
 2. Navigate to the project directory : cd Kaveri-0911
 
-3. Compile the Java program : javac VotingSystem.java
+3. Compile the Java program : javac VotingProcess.java
 
-4. Run the main class : java VotingSystem
+4. Run the main class : java VotingProcess
 
 ---
 
