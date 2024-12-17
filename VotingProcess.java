@@ -26,7 +26,6 @@ class Voter
 	public String toString() 
 	{ 
 	   return "\n Voter : " + "voterId=" + voterId + ", voterName='" + voterName  + "', voted=" + voted + ", pass='" + pass + "'"; 
-       // return "Hello from toString()";
 	}
 }
 
@@ -45,7 +44,7 @@ class Candidate
     public String toString() 
 	{ 
 	   return "Candidate :- " + " choice : " + num + ", Name : " + name + ", VotesCount : " + votesCount; 
-	} // end of toString() method 
+	} 
 
      static  Vector<Candidate> c1 = new Vector<Candidate>(10);
      static
@@ -55,8 +54,7 @@ class Candidate
         c1.addElement(new Candidate(3, "Laxmikant berde"));
         c1.addElement(new Candidate(4, "Sachin Pilgaonkar"));
     }
-
-}// end of Candicate class
+}
 
 public class VotingProcess 
 {
@@ -69,7 +67,7 @@ public class VotingProcess
         {
             System.out.println(Candidate.c1.get(i).toString());
         }
-      } // end of displayCandidateList() method
+      } 
     
     public static void voterRegistration()
 	{
@@ -140,7 +138,7 @@ public class VotingProcess
             }
         } 
 		catch (InputMismatchException ime) 
-		{
+	{
             System.out.println("Invalid input. Inalid Voter ID...\n");
             sc.next();
         }
@@ -188,7 +186,7 @@ public class VotingProcess
                                     System.out.println("Invalid choice.");
                                 }
                             }                
-                        } // end of for-each loop
+                        } 
 
                         if(voter_found == false)
                         {
@@ -200,7 +198,7 @@ public class VotingProcess
                         System.out.println("Invalid input. Please enter valid number.");
                         sc.next(); 
                     }
-            } // end of else if..
+            } 
         }
         else if(X.first_voter == false)
         {
@@ -234,7 +232,7 @@ public class VotingProcess
     } //end of display_result() method
 
 	public static void main(String ar[])
-	{
+ {
         Scanner sc = new Scanner(System.in);
         while(true)
         {
@@ -268,8 +266,8 @@ public class VotingProcess
                 System.out.println("Enter the valid input");
                 continue;
             }
-        // sc.close();
+       
         }
         
-	}
+ }
 }
