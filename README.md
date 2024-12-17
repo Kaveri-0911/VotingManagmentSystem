@@ -45,13 +45,13 @@ This project was created to demonstrate a basic voting system implementation in 
 
 ## How to Run
 
-1. Clone this repository:
+1. Clone this repository : https://github.com/Kaveri-0911/VotingManagementSystem.git
 
-2. Navigate to the project directory:
+2. Navigate to the project directory : cd Kaveri-0911
 
-3. Compile the Java files:
+3. Compile the Java program : javac VotingSystem.java
 
-4. Run the main class:
+4. Run the main class : java VotingSystem
 
 ## Usage
 
